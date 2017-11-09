@@ -1,8 +1,22 @@
 <html>
 <head>
 	<title>Tetris?</title>
+  <style type="text/css">
+    body {
+      background: #0d5e4b;
+      color: #fff;
+      font-family: sans-serif;
+      font-size: 2em;
+      text-align: center;
+      }
+    canvas {
+      border: solid .2em #eaf1fc;
+      height: 90vh;
+    }
+  </style>
 </head>
 <body>
+  <div id="score" width="240" height="20"></div>
 	<canvas id="tetris" width="240" height="400"></canvas>
 	<script type="text/javascript" src="tetris.js"></script>
 </body>
